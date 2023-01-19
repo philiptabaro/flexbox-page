@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    text-decoration: none;
+    list-style: none;
+    font-size: 62.5%;
+    line-height: 1;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: min(95%, 1200px);
+    margin: 0 auto;
+}
+
+
+.logo {
+    height: 30px;
+    
+}
+
+.silver {
+    background: #e1e3eb;
+    text-align: center;
+    padding: 3rem 0;
+
+}
+
+
+.limited {
+    width: 60%;
+}
+
+.gray {
+    background: #3B4050;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.gray_2 {
+    background: #3B4050;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.gray h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    line-height: 1.1;
+    color: #fff;
+    
+}
+
+.gray span {
+    color: #A59678;
+}
+
+.gray .text {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    padding: 2.5rem 0;
+}
+
+.button {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #A59678;
+    width: 13rem;
+    border-radius: 50px;
+    text-align: center;
+    padding: 0.7rem 0;
+    margin: 0 auto;
+}
+
+.button:hover,
+.button:focus {
+    opacity: .7;
+    cursor: pointer;
+}
+
+.silver h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    color: #968054;
+    padding: 1em;
+}
+
+.silver p {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 1rem;
+    margin-bottom: 1.5em;
+    line-height: 1.2;
+}
+
+.white {
+    padding: 3rem 1rem;
+}
+
+.img_section h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    color: #968054;
+}
+
+.img_section p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    max-width: 85%;
+    line-height: 1.2;
+    margin: 2rem 0;
+}
+
+.img_section img {
+    max-width: 85%;
+}
+
+.txt_section_block h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #FFF;
+    
+}
+
+.txt_section_block p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+    color: #FFF;
+    line-height: 1.2;
+}
+
+.bg_block {
+    background: #3B4050;
+    max-width: 25rem;
+    
+    padding: 3rem 0;
+
+}
+
+.bg_block + .bg_block {
+    margin-top: 2rem;
+}
+
+
+
+.gray_2 h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    color: #FFF;
+}
+
+.footer h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    color: #968054;
+    margin-bottom: 2rem;
+    
+}
+
+.footer p {
+    color: #FFF;
+    font-size: 1.5rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 0.7rem;
+}
+
+.left_text {
+    max-width: min(80%, 280px);
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.coloum {
+    margin-bottom: 3rem;
+}
+
+.coloum p {
+    padding: .5rem 0;
+}
+
+
+@media screen and (min-width: 700px) {
+
+    .row {
+        display: flex;        
+        align-items: flex-end;
+        padding: 3rem;
+        
+    }
+
+    .row_top {
+        display: flex; 
+    }
+
+    .text_hero {
+        text-align: left;
+        margin-left: 2rem;
+    }
+
+    .button {
+        margin: 0;
+    }
+
+    .gray h1 {
+        text-align: left;
+    }
+
+    .limited {
+        width: min(95%, 1200px);
+        margin: 0 auto;
+
+    }
+    .text_coloum + .text_coloum {
+        margin-left: 2rem;
+    }
+
+    .img_section {
+        width: 70%;
+    }
+    
+
+    .txt_section_block {
+        width: 30%;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .left_text {
+        max-width: 50%;
+        margin: 0 auto;
+        text-align: left;
+        padding: 3rem;
+        
+    }
+
+    .coloum {
+        margin: 0;
+        padding-left: 2rem;
+        
+    }
+
+    .coloum a:hover {
+        opacity: 0.5;
+    }
+  
+    .footer h2 {
+        font-size: 1.2rem;
+    }
+
+    .footer p {
+        font-size: 1rem;
+    }
+}
